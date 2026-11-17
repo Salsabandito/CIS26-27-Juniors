@@ -1,11 +1,12 @@
 /* ==========================================================
    Cybersecurity Basics - External Stylesheet
-   Student Name:
-   Date:
+   Student Name: Zachary Tebo
+ 6  Date: 17/11/26
    ========================================================== */
 
 /* STEP 2: Universal selector (CSS reset) */
-
+*{margin: 0; padding: 0; box-sizing: border-box; font-family: Arial, Helvetica, sans-serif; font-size: 16px; line-height:
+   1.5; color: #333; background-color: #f9f9f9;}
 
 /* STEP 3: Element selector - body */
 

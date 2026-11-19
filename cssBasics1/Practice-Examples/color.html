@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Color Examples</title>
+    <style>
+        .by-name{
+            color:forestgreen;
+        }
+        .by-rgb{
+            color:rgb(255, 0, 0);
+        }
+        .by-hex{
+            color:#0000ff;
+        }
+        .by-hsl{
+            color:hsl(120, 100%, 25%);
+        }
+         .faded{
+            color:rgba(0, 0, 0, 0.5);
+        }
+        .by-rgba{
+            color:rgba(0, 0, 0, 0.5);
+        }
+        .by-hsla{
+            color:hsla(0, 100%, 50%, 0.3);
+        }
+        .solid{
+            background-color:LightSkyBlue;
+        }
+        .with-image{
+            background-color:#2B2D2C; /*color gets drawn first*/
+            background-image:url(imgs/dots.svg); /*drawn on top of the color*/
+            color: white;
+        }
+        .short-hand{
+            background:darkgreen url('imgs/dots.svg');
+            color: white;
+        }
+        .clear-box{
+            /*no background set = transparent. The parent (body) shows through*/
+            border: 2px dashed grey;
+            background:transparent;
+        }
+        .glass{
+            background-color:rgba(255, 255, 255, 0.5); /*half tansparent whit*/
+        }
+    </style>
+</head>
+<body>
+    <h1>Four Ways to Write a Color.</h1>
+    <p class="by-name">This text uses a color name.</p>
+    <p class="by-rgb">This text uses an RGB value.</p>
+    <p class="by-hex">This text uses a HEXADECIMAL value.</p>
+    <p class="by-hsl">This text uses an HSL value.</p>
+    <p class="by-rgba">This text uses RGBA (black at half opacity)</p>
+    <p class="by-hsla">This text uses HSLA (red at 30% opacity)</p>
+
+    <h2>Background Practice</h2>
+    <p class="solid">background-color: LightSkyBlue</p>
+    <p>background-color plus a background-image drawn on top.</p>
+    <p class="short-hand">background shorthand: color and images in one declaration.</p>
+    <p class="clear-box">No background: the body's color shows thorugh (transparent)</p>
+    <div class="with-image">
+        <p class="glass">A half-transparent paragraph sitting on a dark, dotted div</p>
+    </div>
+</body>
+</html>

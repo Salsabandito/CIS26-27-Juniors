@@ -5,12 +5,71 @@
    ========================================================== */
 
 /* STEP 2: Universal selector (CSS reset) */
-*{margin: 0; padding: 0; box-sizing: border-box; font-family: Arial, Helvetica, sans-serif; font-size: 16px; line-height:
-   1.5; color: #333; background-color: #f9f9f9;}
+
 
 /* STEP 3: Element selector - body */
-
-
+header{
+   background-color:rgb(28, 18, 87);
+   color:rgb(97, 97, 221);
+   text-align:center;
+   padding:1em;
+   font-family: 'Courier New', Courier, monospace;
+}
+p{
+   color:rgb(199, 199, 218);
+}
+html, body {
+   background-color:rgb(13, 8, 43);
+}
+h2{
+   color:rgb(112, 112, 162);
+}
+li{
+   color:rgb(200, 200, 226);
+}
+.tagline{
+   color:rgb(112, 112, 162);
+   background-color:rgb(28, 18, 87);
+   text-align:center;
+}
+nav a{
+   color:rgb(112, 112, 162);
+   text-decoration:none;
+   
+   
+}
+nav a:hover{
+   color:rgb(199, 199, 218);
+   font-weight:bold;
+}
+nav li{
+   display:inline-block;
+   text-align:center;
+}
+table{
+   color:rgb(173, 173, 255);
+}
+nav a:hover{
+   text-decoration:underline;
+}
+table, th, td {
+   border: 2px solid rgb(97, 97, 221);
+}
+footer{
+   font-size: small;
+   background-color:rgb(28, 18, 87);
+   padding:1em;
+   text-align:center;
+}
+a{
+   color:rgb(112, 112, 162);
+   text-decoration:none;
+}
+a:hover{
+   color:rgb(199, 199, 218);
+   text-decoration:underline;
+   font-weight:bold;
+}
 /* STEP 4: Multiple selector - headings */
 
 
@@ -22,7 +81,16 @@
 
 /* STEP 7: Class selectors - .card, .tagline, .tip, .warning */
 
-
+.warning{
+   color:rgb(112, 112, 162);
+   background-color:rgb(28, 18, 87);
+   padding:1em;
+   border-radius:10px;
+}
+.card{
+   padding:1em;
+   border-radius:10px;
+}
 /* STEP 8: Descendant selector - links inside the nav */
 
 

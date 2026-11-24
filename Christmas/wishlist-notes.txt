@@ -1,0 +1,10 @@
+# Item name Price     Store          link                                                                                                                                                         Short description                  Photo                                                    saved as
+1 Toilet    $290      Home Depot     https://www.homedepot.com/p/Glacier-Bay-Power-Flush-12-in-Rough-In-2-Piece-1-28-GPF-Single-Flush-Elongated-Toilet-in-White-Seat-Included-N2450E-17/336961026 White, single flush, seat included white-glacier-bay-two-piece-toilets-n2450e-17-64_600.jpg white-glacier-bay-two-piece-toilets-n2450e-17-64_600.jpg
+2 TV        $1,297.99 Amazon         https://www.amazon.com/Samsung-75-Inch-Class-QN80H-Smart/dp/B0GP9N4KS2                                                                                       75 inch, 4k, smart tv              tv.jpg                                                   tv.jpg
+3 Figure     .jpg      .jpg
+4      .jpg      .jpg
+5      .jpg      .jpg
+6      .jpg      .jpg
+7      .jpg      .jpg
+8      .jpg      .jpg
+9      .jpg      .jpg

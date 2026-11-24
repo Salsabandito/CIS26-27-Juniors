@@ -1,0 +1,12 @@
+Christmas Wishlist 2026 - Starter Kit
+
+img/header.jpg            Shared header photo. Every student uses this image.
+                          Do not replace it. (From the 2024 class model site.)
+img/photos/streetlight.jpg  Photo by Josh Harrison on Unsplash
+img/photos/candle.jpg       Photo by Davidson Luna on Unsplash
+img/graphics/*.svg        Christmas graphics for decoration anywhere on your site:
+                          bell, candy-canes, ornaments, santa, sled, snow-globe,
+                          snowman, tree, tree-outline, wreath
+
+Copy the img folder into your christmas folder, then add your own
+img/items folder for item1.jpg through item9.jpg.
